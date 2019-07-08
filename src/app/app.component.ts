@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {NgForm} from '@angular/forms';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,9 +7,10 @@ import {NgForm} from '@angular/forms';
 })
 export class AppComponent {
   title = 'myapp';
-  login(form:NgForm)
+  
+  Login()
   {
     
-    console.log(form);
+    console.log("form");
   }
 }
